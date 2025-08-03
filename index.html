@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milan Fataniya | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="p4.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Port<span>Folio</span></div>
+    <div class="menu-toggle" id="menu-toggle" tabindex="0" aria-label="Open menu" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <!-- Exit menu for mobile -->
+      <li class="exit-menu"><a href="javascript:void(0)" id="exit-menu">Close</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <h4>Hello,</h4>
+      <h1>I'm <span>Milan Fataniya</span></h1>
+      <div class="marquee-box">
+        <marquee behavior="alternate" scrollamount="5">
+          <h4>MCA <span>Student</span></h4>
+        </marquee>
+      </div>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">See My Projects</a>
+        <a href="#skills" class="btn btn-outline">Skills</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="circle-glow"></div>
+      <img src="p4.jpg" alt="Profile Photo" />
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      MCA student at Saurashtra University, learning coding and making projects in Python, Android, C#, SQL, and Web
+      Development. Interested in building applications that are simple, useful, and work smoothly.
+    </p>
+  </section>
+
+  <!-- Academic Results -->
+  <section class="stats-section" id="results">
+    <h2>Past Academic Results</h2>
+    <div class="stats-cards">
+      <div class="stat-card"><i class="fas fa-school"></i><h3>66.83%</h3><p>10th Grade</p></div>
+      <div class="stat-card"><i class="fas fa-university"></i><h3>67.14%</h3><p>12th Grade</p></div>
+      <div class="stat-card"><i class="fas fa-user-graduate"></i><h3>77.36%</h3><p>B.C.A</p></div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fab fa-android"></i><p>Android</p></div>
+      <div class="skill-card"><i class="fas fa-database"></i><p>SQL</p></div>
+      <div class="skill-card"><i class="fab fa-html5"></i><p>HTML</p></div>
+      <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+      <div class="skill-card"><i class="fas fa-code"></i><p>C#</p></div>
+      <div class="skill-card"><i class="fas fa-terminal"></i><p>C</p></div>
+      <div class="skill-card"><i class="fab fa-php"></i><p>PHP</p></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <div class="card-front">
+          <i class="fab fa-android project-icon"></i>
+          <h3>Quiz App (Android)</h3>
+          <p>Hover to View Features</p>
+        </div>
+        <div class="card-back">
+          <ul>
+            <li>50-50 Lifeline & Question Swap</li>
+            <li>Animated ProgressBar with Timer</li>
+            <li>Modern Material UI with Dark Mode</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-front">
+          <i class="fas fa-code project-icon"></i>
+          <h3>Quiz App (C#)</h3>
+          <p>Hover to View Features</p>
+        </div>
+        <div class="card-back">
+          <ul>
+            <li>Login & Signup with Authentication</li>
+            <li>Leaderboard & Score History</li>
+            <li>Interactive UI with Animations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section class="certificates" id="certificates">
+    <h2>Certificates</h2>
+    <div class="certificates-grid">
+      <div class="certificate-card">
+        <div class="certificate-ribbon">Gemini</div>
+        <a href="https://simpli.app.link/wzdhaXuBRTb" target="_blank" rel="noopener">
+          <img src="gemini.jpg" alt="Gemini For Google Workspace Certificate">
+          <div class="certificate-info">
+            <h3>Gemini For Google Workspace</h3>
+          </div>
+        </a>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-ribbon">Web</div>
+        <a href="https://simpli.app.link/qgrBbmMQwVb" target="_blank" rel="noopener">
+          <img src="ai3.jpg" alt="Web Development Certificate">
+          <div class="certificate-info">
+            <h3>Ai For Web Development</h3>
+          </div>
+        </a>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-ribbon">SQL</div>
+        <a href="https://www.mygreatlearning.com/certificate/FNISGYID" target="_blank" rel="noopener">
+          <img src="sql.jpg" alt="SQL Certificate">
+          <div class="certificate-info">
+            <h3>SQL</h3>
+          </div>
+        </a>
+      </div>
+      <!-- Add more certificates as needed -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Milan Fataniya</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/milan-fataniya-90481b298" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/milanfataniya" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:milanfataniya2025@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
