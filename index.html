@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Milan Fataniya | Flutter Developer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>Portfolio</h2>
+
+        <ul class="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" onclick="openDrawer()">☰</div>
+
+    </nav>
+
+    <div class="overlay" id="overlay" onclick="closeDrawer()"></div>
+
+    <div class="drawer" id="drawer">
+
+        <div class="drawer-header">
+
+            <h3>Menu</h3>
+
+            <span class="close-btn" onclick="closeDrawer()">✕</span>
+
+        </div>
+
+        <a href="#about" onclick="closeDrawer()">About</a>
+        <a href="#education" onclick="closeDrawer()">Education</a>
+        <a href="#skills" onclick="closeDrawer()">Skills</a>
+        <a href="#projects" onclick="closeDrawer()">Projects</a>
+        <a href="#contact" onclick="closeDrawer()">Contact</a>
+
+    </div>
+
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>Hi I'm <span>Milan Fataniya</span></h1>
+
+            <p>Flutter Developer</p>
+
+            <a href="#projects" class="btn">View My Work</a>
+
+        </div>
+
+        <div class="profile-wrapper">
+            <img src="p4.jpg">
+        </div>
+
+    </section>
+
+
+    <section id="about">
+
+        <h2 class="title">About Me</h2>
+
+        <p class="about">
+
+            Flutter developer currently pursuing Master of Computer Application (MCA) at Saurashtra University.
+
+            Focused on building cross-platform mobile applications using Flutter and Dart with Firebase and REST APIs.
+
+            Developed projects like the WeTalk real-time chat application.
+
+        </p>
+
+    </section>
+
+
+    <section id="education">
+
+        <h2 class="title">Education</h2>
+
+        <div class="education">
+
+            <div class="edu-card">
+                <h3>MCA</h3>
+                <p>Saurashtra University</p>
+                <p>2024 – Present</p>
+            </div>
+
+            <div class="edu-card">
+                <h3>BCA</h3>
+                <p>Bhakta Kavi Narsinh Mehta University</p>
+                <p>2021 – 2024</p>
+                <p>CGPA: 8.25</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="skills">
+
+        <h2 class="title">Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg">
+                Flutter
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg">
+                Dart
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg">
+                Firebase
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
+                C#
+            </div>
+
+            <div class="skill-card">
+                <img class="white-icon" src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png">
+                REST API
+            </div>
+
+            <div class="skill-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg">
+                ChatGPT
+            </div>
+
+            <div class="skill-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg">
+                Gemini
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+
+        <h2 class="title">Projects</h2>
+
+        <div class="projects">
+
+            <a class="card-link" href="https://play.google.com/store/apps/details?id=com.milan.wetalkmsg"
+                target="_blank">
+
+                <div class="project-card">
+
+                    <h3>WeTalk - Flutter Chat App</h3>
+
+                    <p>Real-time chat app built using Flutter and Firebase.</p>
+
+                    <p style="color:#38bdf8">View on Google Play ↗</p>
+
+                </div>
+
+            </a>
+
+            <div class="project-card">
+
+                <h3>Quiz Mobile App</h3>
+
+                <p>Android quiz app built with Java and XML.</p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>CodeNest</h3>
+
+                <p>Online code editor built using Python Flask.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+
+        <h2 class="title">Contact</h2>
+
+        <div class="contact-grid">
+
+            <a class="card-link" href="tel:+919016689605">
+
+                <div class="contact-card">
+                    <img class="white-icon" src="https://cdn-icons-png.flaticon.com/512/724/724664.png">
+                    <p>+91 90166 89605</p>
+                </div>
+
+            </a>
+
+            <a class="card-link" href="mailto:milanfataniya2021@gmail.com">
+
+                <div class="contact-card">
+                    <img class="white-icon" src="https://cdn-icons-png.flaticon.com/512/561/561127.png">
+                    <p>Email</p>
+                </div>
+
+            </a>
+
+            <a class="card-link" href="https://github.com/milanfataniya" target="_blank">
+
+                <div class="contact-card">
+                    <img class="white-icon"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                    <p>GitHub</p>
+                </div>
+
+            </a>
+
+            <a class="card-link" href="https://www.linkedin.com/in/milan-fataniya-90481b298/" target="_blank">
+
+                <div class="contact-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg">
+                    <p>LinkedIn</p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        © 2026 Milan Fataniya
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
